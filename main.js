@@ -11,11 +11,11 @@ function basicInfo() {
 
     let data = JSON.parse(this.responseText);
     let basic_info =
-        `<p>Name: ${data.name}</p>
-                      <p>GitHub URL: <a href="${data.url}">ctvanzandt42<a></p>
-                      <p id="email">Email: <a href=ctvanzandt42@gmail.com>ctvanzandt42@gmail.com<a></p>
-                      <p>Company: ${data.company}</p>
-                      <p>Website: <a href="${data.blog}">My Site<a></p>`;
+        `<p>Name: ${data.name}<br>
+        GitHub URL: <a href="${data.url}">ctvanzandt42<a><br>
+        Email: <a href=ctvanzandt42@gmail.com>ctvanzandt42@gmail.com<a><br>
+        Company: ${data.company}<br>
+        Website: <a href="${data.blog}">My Site<a></p>`;
 
     basics.innerHTML = basic_info;
 }

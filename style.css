@@ -11,6 +11,8 @@ body {
     margin-left: 85px;
     background-color: white;
     color: black;
+    padding-bottom: 60px;
+    letter-spacing: .74px;
 }
 
 header {
@@ -44,17 +46,44 @@ header:after {
     flex-direction: row;
 }
 
+p {
+    color: grey;
+}
+
+#basic-info {
+    line-height: 27px;
+}
+
 .story {
-    float: right;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-top: -19px;
+    display: flex;
+    flex-direction: row;
+}
+
+#story-title {
+    margin-left: 20px;
 }
 
 .story-content {
-    display: flex;
-    flex-direction: row;
+    border-left: dotted 1px black;
+    padding-left: 20px;
 }
 
 img {
     height: 100px;
     width: 100px;
     border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
 }
