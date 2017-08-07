@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: "Crimson Text", serif;
+    color: white;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 75px;
+    margin-right: 85px;
+    margin-left: 85px;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+header:after {
+    content: " ";
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background: linear-gradient(#1D1D1D 0%, transparent 0%), linear-gradient(150deg, white 33.33%, transparent 33.33%) 0 0%, white linear-gradient(45deg, white 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#1D1D1D 0%, transparent 0%), -webkit-linear-gradient(150deg, white 33.33%, transparent 33.33%) 0 0%, white -webkit-linear-gradient(45deg, white 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -o-linear-gradient(#1D1D1D 0%, transparent 0%), -o-linear-gradient(150deg, white 33.33%, transparent 33.33%) 0 0%, white -o-linear-gradient(45deg, white 33.33%, #1D1D1D 33.33%) 0 0%;
+    background: -moz-linear-gradient(#1D1D1D 0%, transparent 0%), -moz-linear-gradient(150deg, white 33.33%, transparent 33.33%) 0 0%, white -moz-linear-gradient(45deg, white 33.33%, #1D1D1D 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+
+#page-content {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.story {
+    float: right;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
